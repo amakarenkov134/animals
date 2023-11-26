@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 
 using namespace std;
 
@@ -14,5 +14,5 @@ public:
 };
 
 void Herbivore::show() {
-	cout << endl << name << endl << "Çäîðîâüå: " << health << endl << "Óäà÷ëèâîñòü: " << luck << endl << "Ìîæåò ðàçìîæàòüñÿ: " << isNew << endl;
+	cout << endl << name << endl << "Ð—Ð´Ð¾Ñ€Ð¾Ð²ÑŒÐµ: " << health << endl << "Ð£Ð´Ð°Ñ‡Ð»Ð¸Ð²Ð¾ÑÑ‚ÑŒ: " << luck << endl << "ÐœÐ¾Ð¶ÐµÑ‚ Ñ€Ð°Ð·Ð¼Ð¾Ð¶Ð°Ñ‚ÑŒÑÑ: " << isNew << endl;
 }

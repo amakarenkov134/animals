@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 
 using namespace std;
 
@@ -18,5 +18,5 @@ public:
 };
 
 void Carnivore::show() {
-	cout << endl << name << endl << "Çäîðîâüå: " << health << endl << "Ñèëà: " << strength << endl << "Ãîëîä: " << hungry << endl << "Ìîæåò ðàçìîæàòüñÿ: " << isNew << endl;
+	cout << endl << name << endl << "Ð—Ð´Ð¾Ñ€Ð¾Ð²ÑŒÐµ: " << health << endl << "Ð¡Ð¸Ð»Ð°: " << strength << endl << "Ð“Ð¾Ð»Ð¾Ð´: " << hungry << endl << "ÐœÐ¾Ð¶ÐµÑ‚ Ñ€Ð°Ð·Ð¼Ð¾Ð¶Ð°Ñ‚ÑŒÑÑ: " << isNew << endl;
 }
