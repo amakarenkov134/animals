@@ -5,12 +5,15 @@
 #include <cstdlib>
 #include <typeinfo>
 #include <cstring>
+#include <Windows.h>
 #include "Interact.h"
 
 using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "rus");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	srand(time(NULL));
 	vector<Animal*> animals;
 	animals.push_back(new Rabbit("Кролик 1", 5, 0.3, true));
