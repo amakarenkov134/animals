@@ -43,3 +43,13 @@ public:
 ## Результат работы программы
 
 https://drive.google.com/file/d/1u1596MTMcHGdhNLnb46-ZchMMBcJ06vI/view?usp=drive_link
+
+## Сборка
+
+```
+mkdir build
+cd build
+cmake ..
+make
+./animal
+```
